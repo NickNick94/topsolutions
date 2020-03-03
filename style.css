@@ -1,0 +1,313 @@
+html,body{
+  margin: 0;
+  padding: 0;
+ 
+  height: 100%;
+  min-width: 1000px;
+min-height: 1000px;
+background-image: url(css/images/11.jpg);
+
+ 
+
+
+  
+}
+.b1{
+    width: 100%;
+  height: 100%;
+  margin: auto;
+  background: url(css/images/2863.jpg) no-repeat 50% 50%;
+  top: 0;
+  display: table;
+  background-size: cover;
+  min-width: 1000px;
+min-height: 1000px;
+}
+.b1 .in1{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.gorenaslov{
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.gorenaslov h1{
+  font-family: 'Lucida Sans Unicode',sans-serif;
+  font-size: 500%;
+  text-shadow: 0 0 300px #000;
+  border-style:double;
+  border-radius: 80px;
+  color: #FFD700;
+  position: relative;
+  top: 30px;
+
+
+  
+}
+
+  
+
+.gorenaslov .btn{
+  border-radius: 32px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Century Gothic',sans-serif;
+  font-weight:bolder;
+
+  border: 3px solid;
+  padding: 7px 13px;
+  font-weight:inherit;
+}
+.gorenaslov .btn:hover{
+  color:#FFD700;
+}
+.prva{
+
+
+   margin: 0;
+  width: 50%%;
+  padding: 0;
+
+
+  background-image: linear-gradient(#396afc,#2948ff);
+    border-top-style:double;
+height: 32%;
+
+top: 50px;
+bottom: 90%;
+
+}
+
+
+
+
+
+
+
+
+.prvinaslov{
+
+ color: #FFD700;
+ padding: 0;
+ font-family: 'Tahoma',sans-serif;
+ font-size: 45px;
+
+
+ 
+}
+
+.slova{
+color: white;
+font-size:20px;
+font-family: 'Century Gothic',sans-serif;
+
+
+}
+
+
+
+
+.deb{
+
+  color: #FFD700;
+  font-style: italic;
+}
+
+
+
+
+
+.container{
+
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 240px auto;
+ bottom: 15%;
+ 
+}
+
+.container .box
+{
+
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(400px - 30px);
+background-image: linear-gradient(#232526,#414345);
+  float:left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 65px;
+   display: table-cell;
+  max-width: none;
+   border-style: double;
+   border-color:silver;
+
+}
+
+.container .box .icon
+{
+
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+
+  background-image: linear-gradient(#396afc,#2948ff);
+transition: 0.5s;
+z-index: 1;
+}
+
+.container .box:hover .icon
+{
+
+  top:20px;
+  left:  calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .box .icon .fa
+{
+
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+font-size: 80px;
+transition: 0.5s;
+color: white;
+
+}
+
+
+.container .box:hover .icon .fa
+{
+
+  font-size: 40px;
+}
+
+.content
+{
+
+  position: absolute;
+  height: calc(100%; - 100px);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  top:100px;
+  transition: 0.5s;
+}
+
+.container .box .content h3
+{
+  margin: 0;
+  padding: 0;
+  color: #FFD700;
+  font-size: 25px;
+   font-family: 'Tahoma',sans-serif;
+
+
+}
+
+
+
+.container .box .content p
+{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Candara',sans-serif;
+
+}
+
+.druga{
+
+
+   margin: 0;
+  width: 50%%;
+  padding: 0;
+ background-image: linear-gradient(#396afc,#2948ff);
+  position: relative;
+  bottom: 25%;
+  height: 655px;
+  border-top-style:double;
+}
+
+img{
+
+  width: 500px;
+  height: 310px;
+  position: relative;
+  left: 450px;
+
+
+
+}
+
+
+
+.container2{
+
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 240px auto;
+ bottom: 210px;
+ border-radius: 50%;
+ 
+}
+
+
+
+.container2 .box
+{
+
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(400px - 30px);
+background-image: linear-gradient(#232526,#414345);
+  float:left;
+  margin: 15px;
+  box-sizing: border-box;
+
+  border-radius:50%;
+
+ 
+  border-color: #fff;
+  border-style: double;
+
+
+ 
+}
+
+
+.container2 .box .content h3
+{
+  margin: 0;
+  padding: 0;
+  color: #FFD700;
+  font-size: 25px;
+   font-family: 'Georgia',sans-serif;
+
+
+}
+
+
+
+.container2 .box .content p
+{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Tahoma',sans-serif;
+
+}
